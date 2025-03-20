@@ -3,6 +3,7 @@ import React from 'react'
 import { HiHome } from 'react-icons/hi'
 import { Link } from 'react-router-dom'
 
+
 const Navbar = ({ onLogout }) => {
 	return (
 		<nav className='fixed w-full top-0 backdrop-blur-sm bg-white/40 border border-b-black/60 text-white p-4'>
